@@ -39,6 +39,7 @@ yarn-debug.log*
 .framgia-ci-result.temp.yml
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Environment normalization:
 /.bundle/
 /vendor/bundle
@@ -58,11 +59,16 @@ yarn-debug.log*
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
 
+=======
+>>>>>>> 70bf5647 (Chapter3_4_5)
 /config/database.yml
 /test/*
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
+<<<<<<< HEAD
 =======
 database.yml
 >>>>>>> 11b35a0f (Init Project)
+=======
+>>>>>>> 70bf5647 (Chapter3_4_5)
