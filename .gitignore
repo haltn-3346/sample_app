@@ -38,4 +38,8 @@ yarn-debug.log*
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
 
-database.yml
+/config/database.yml
+/test/*
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
