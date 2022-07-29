@@ -1,0 +1,42 @@
+en:
+  helpers:
+    application_helper:
+      base_title: "Hướng dẫn Sample App Ruby on Rails"
+
+  static_pages:
+    home:
+      signupnow: "Đăng ký ngay!"
+      welcome: "Chào mừng đến với Sample App"
+      test1: "Đây là trang chủ của"
+      test2: "Ứng dụng mẫu."
+    contact:
+      contact: "Liên hệ"
+      dis1: "Liên hệ tới "
+    help:
+      help: "Trợ giúp"
+      test1: "Xem trợ giúp về hướng dẫn Ruby on Rails Turial tại"
+      test2: "Để được trợ giúp, truy cập"
+
+    about:
+      about: "Về chúng tôi"
+      the: ""
+      part: ", một phần của"
+      amily: ", là một"
+      and: " và"
+      to_teach: "để hướng dẫn lập trình Web với"
+      sample_app: " Đây là ứng dụng mẫu cho mục đích hướng dẫn."
+      book: "cuốn sách"
+
+    footer:
+      content: "Được viết"
+      news: "Tin tức"
+      by: "bởi"
+
+    header:
+      home: "Trang chủ"
+      help: "Đăng nhập"
+      login: "Trợ giúp"
+
+      application:
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
