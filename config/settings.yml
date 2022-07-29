@@ -17,8 +17,9 @@ urls:
     series: "https://screencasts.railstutorial.org/"
     ruby: "https://rubyonrails.org/"
 user:
-  email_pattern: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   name_max: 50
-  email_min: 10
+  name_min: 2
   email_max: 255
   password_min: 6
+  password_max: 20
+  email_pattern: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
