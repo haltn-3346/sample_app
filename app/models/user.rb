@@ -1,5 +1,5 @@
-class User < ApplicationRecorda
-  validate :name, presence: true,
+class User < ApplicationRecord
+  validates :name, presence: true,
                   length: {maximum: Settings.user.name_max,
                            minimum: Settings.user.name_min}
   validates :email, presence: true,
@@ -18,5 +18,11 @@ class User < ApplicationRecorda
 
   def downcase_email
     email.downcase!
+  end
+
+  def User.digest(string)
+    cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
+                                                  BCrypt::Engine.cost
+                                                  BCrypt::Password.create(string, cost: cost)
   end
 end
