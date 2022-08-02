@@ -1,4 +1,4 @@
-en:
+vi:
   helpers:
     application_helper:
       base_title: "Hướng dẫn Sample App Ruby on Rails"
@@ -9,9 +9,11 @@ en:
       welcome: "Chào mừng đến với Sample App"
       test1: "Đây là trang chủ của"
       test2: "Ứng dụng mẫu."
+
     contact:
       contact: "Liên hệ"
       dis1: "Liên hệ tới "
+
     help:
       help: "Trợ giúp"
       test1: "Xem trợ giúp về hướng dẫn Ruby on Rails Turial tại"
@@ -34,9 +36,28 @@ en:
 
     header:
       home: "Trang chủ"
-      help: "Đăng nhập"
-      login: "Trợ giúp"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
 
-      application:
+    application:
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+  users:
+    new:
+      title: "Đăng ký"
+      form:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu"
+        btn_submit: "Tạo tài khoản"
+
+    show:
+      not_found_user: "Không tìm thấy người dùng!"
+
+    create:
+      signup_success: "Chào mừng đến Sample App!"
+
+  shared:
+    error_form: "Form chứa"
+    error: "lỗi"
