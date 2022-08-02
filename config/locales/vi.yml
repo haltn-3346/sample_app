@@ -38,10 +38,16 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
 
     application:
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+
   users:
     new:
       title: "Đăng ký"
@@ -61,3 +67,16 @@ vi:
   shared:
     error_form: "Form chứa"
     error: "lỗi"
+
+  sessions:
+    new:
+      title: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      signupnow: "Đăng ký ngay!"
+      form:
+        email: "Email"
+        password: "Mật khẩu"
+        btn_submit: "Đăng nhập"
+
+    create:
+      invalid: "Sai email hoặc mật khẩu"
