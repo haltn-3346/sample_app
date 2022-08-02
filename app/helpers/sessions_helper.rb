@@ -3,6 +3,7 @@ module SessionsHelper
     session[:user_id] = user.id
   end
 
+<<<<<<< HEAD
   def handle_login user
     log_in user
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
@@ -10,12 +11,19 @@ module SessionsHelper
   end
 
   def remember user
+=======
+  def remember(user)
+>>>>>>> 15988b96 (chapter 9)
     user.remember
     cookies.permanent.signed[:user_id] = user.id
     cookies.permanent[:remember_token] = user.remember_token
   end
 
+<<<<<<< HEAD
   def forget user
+=======
+  def forget(user)
+>>>>>>> 15988b96 (chapter 9)
     user.forget
     cookies.delete(:user_id)
     cookies.delete(:remember_token)
