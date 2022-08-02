@@ -9,6 +9,7 @@ en:
       welcome: "Welcome to the Sample App"
       test1: "This is the home page for the"
       test2: "sample application."
+
     contact:
       contact: "Contact"
       dis1: "Contact the Ruby on Rails Tutorial about the sample app at the"
@@ -16,6 +17,7 @@ en:
       help: "Help"
       test1: "Get help on the Ruby on Rails Tutorial at the"
       test2: "To get help on this sample app, see the"
+
     about:
       about: "About"
       the: "The"
@@ -25,14 +27,37 @@ en:
       to_teach: "to teach web development with"
       sample_app: " This is the sample app for the tutorial."
       book: "book"
+
     footer:
       content: "Content"
       news: "News"
       by: "by"
+
     header:
       home: "Home"
       help: "Help"
       login: "Log in"
+
     application:
       english: "English"
       vietnamese: "Vietnamese"
+
+  users:
+    new:
+      title: "Sign Up"
+      form:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+        btn_submit: "Create my account"
+
+    show:
+      not_found_user: "User not found!"
+
+    create:
+      signup_success: "Welcome to the Sample App!"
+
+  shared:
+    error_form: "The form contains"
+    error: "error"
