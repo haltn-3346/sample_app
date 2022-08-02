@@ -13,6 +13,7 @@ en:
     contact:
       contact: "Contact"
       dis1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+
     help:
       help: "Help"
       test1: "Get help on the Ruby on Rails Tutorial at the"
@@ -37,6 +38,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
+      logout: "Logout"
 
     application:
       english: "English"
@@ -61,3 +67,16 @@ en:
   shared:
     error_form: "The form contains"
     error: "error"
+
+  sessions:
+    new:
+      title: "Log in"
+      new_user: "New user?"
+      signupnow: "Sign up now!"
+      form:
+        email: "Email"
+        password: "Password"
+        btn_submit: "Log in"
+
+    create:
+      invalid: "Invalid email/password combination"
