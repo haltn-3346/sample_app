@@ -3,6 +3,17 @@ vi:
     application_helper:
       base_title: "Hướng dẫn Sample App Ruby on Rails"
 
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
+
   static_pages:
     home:
       signupnow: "Đăng ký ngay!"
@@ -33,16 +44,6 @@ vi:
       content: "Được viết"
       news: "Tin tức"
       by: "bởi"
-
-    header:
-      home: "Trang chủ"
-      help: "Trợ giúp"
-      login: "Đăng nhập"
-      users: "Người dùng"
-      account: "Tài khoản"
-      profile: "Hồ sơ"
-      setting: "Cài đặt"
-      logout: "Đăng xuất"
 
     application:
       english: "Tiếng Anh"
@@ -77,6 +78,7 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         btn_submit: "Đăng nhập"
+        rememberme: "Ghi nhớ đăng nhập"
 
     create:
       invalid: "Sai email hoặc mật khẩu"

@@ -3,6 +3,17 @@ en:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
 
+  layouts:
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
+      logout: "Logout"
+
   static_pages:
     home:
       signupnow: "Sign up now!"
@@ -33,16 +44,6 @@ en:
       content: "Content"
       news: "News"
       by: "by"
-
-    header:
-      home: "Home"
-      help: "Help"
-      login: "Log in"
-      users: "Users"
-      account: "Account"
-      profile: "Profile"
-      setting: "Setting"
-      logout: "Logout"
 
     application:
       english: "English"
@@ -77,6 +78,7 @@ en:
         email: "Email"
         password: "Password"
         btn_submit: "Log in"
+        rememberme: "Remember me"
 
     create:
       invalid: "Invalid email/password combination"
