@@ -42,3 +42,4 @@ page_10: 10
 true: "1"
 false: "0"
 password_reset_expired: 2
+size_30_gravatar: 30
