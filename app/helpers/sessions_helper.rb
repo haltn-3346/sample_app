@@ -3,16 +3,6 @@ module SessionsHelper
     session[:user_id] = user.id
   end
 
-  def handle_login user
-    log_in user
-    if params[:session][:remember_me] == Settings.true
-      remember(user)
-    else
-      forget(user)
-    end
-    redirect_back_or user
-  end
-
   def remember user
     user.remember
     cookies.permanent.signed[:user_id] = user.id
@@ -26,11 +16,11 @@ module SessionsHelper
   end
 
   def current_user
-    if (user_id = session[:user_id])
+    if user_id = session[:user_id]
       @current_user ||= User.find_by id: user_id
     elsif user_id = cookies.signed[:user_id]
       user = User.find_by id: user_id
-      if user&.authenticated? cookies[:remember_token]
+      if user&.authenticated? :remember, cookies[:remember_token]
         log_in user
         @current_user = user
       end
