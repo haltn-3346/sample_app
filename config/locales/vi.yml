@@ -16,6 +16,7 @@ vi:
 
   static_pages:
     home:
+      title: "Trang chủ"
       signupnow: "Đăng ký ngay!"
       welcome: "Chào mừng đến với Sample App"
       test1: "Đây là trang chủ của"
@@ -68,6 +69,7 @@ vi:
 
     create:
       signup_success: "Chào mừng đến Sample App!"
+      check_email: "Vui lòng Kiểm tra email của bạn để kích hoạt tài khoản"
 
     update:
       profile_updated_success: "Cập nhật hồ sơ thành công"
@@ -106,3 +108,21 @@ vi:
 
     create:
       invalid: "Sai email hoặc mật khẩu"
+      act_warning: "Tài khoản chưa kích hoạt. Vui lòng Kiểm tra email của bạn để biết liên kết kích hoạt"
+
+  account_activations:
+    edit:
+      activated: "Tài khoản đã được kích hoạt"
+      invalid_link: "Đường dẫn kích hoạt không hợp lệ"
+
+    user_not_found: "Không tìm thấy user!"
+
+  mailers:
+    account_activation_sub: "Kích hoạt tài khoản"
+
+  user_mailer:
+    account_activation:
+      activate: "Kích hoạt"
+      wellcome: "Chào mừng đến với Sample App! nhấn vào link dưới để kích hoạt tài khoản nhé!"
+      hi: "Xin chào"
+      sample_app: "Sample App"

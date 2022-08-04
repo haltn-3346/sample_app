@@ -16,6 +16,7 @@ en:
 
   static_pages:
     home:
+      title: "Home"
       signupnow: "Sign up now!"
       welcome: "Welcome to the Sample App"
       test1: "This is the home page for the"
@@ -68,6 +69,7 @@ en:
 
     create:
       signup_success: "Welcome to the Sample App!"
+      check_email: "Please check your email to activate your account."
 
     update:
       profile_updated_success: "Profile updated success"
@@ -106,3 +108,20 @@ en:
 
     create:
       invalid: "Invalid email/password combination"
+      act_warning: "Account not activated. Check your email for the activation link."
+
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid_link: "Invalid activation link"
+
+
+  mailers:
+    account_activation_sub: "Account activation"
+
+  user_mailer:
+    account_activation:
+      activate: "Activate"
+      wellcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      hi: "Hi "
+      sample_app: "Sample App"
