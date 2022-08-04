@@ -52,18 +52,42 @@ vi:
   users:
     new:
       title: "Đăng ký"
-      form:
-        name: "Tên"
-        email: "Email"
-        password: "Mật khẩu"
-        password_confirmation: "Nhập lại mật khẩu"
-        btn_submit: "Tạo tài khoản"
+      btn_submit: "Tạo tài khoản"
+
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
 
     show:
       not_found_user: "Không tìm thấy người dùng!"
 
+    index:
+      title: "Tất cả người dùng"
+
     create:
       signup_success: "Chào mừng đến Sample App!"
+
+    update:
+      profile_updated_success: "Cập nhật hồ sơ thành công"
+      profile_updated_failed: "Cập nhật hồ sơ thất bại"
+
+    edit:
+      title: "Chỉnh sửa thông tin"
+      edit_profile: "Cập nhật hồ sơ của bạn"
+      btn_submit: "Lưu thay đổi"
+      change: "Thay đổi"
+
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn muốn xóa?"
+
+    destroy:
+      success: "Xóa người dùng thành công"
+      failed: "Xóa người dùng thất bại"
+
+    login_request: "Vui lòng đăng nhập trước"
 
   shared:
     error_form: "Form chứa"

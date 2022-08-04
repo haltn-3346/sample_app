@@ -52,18 +52,42 @@ en:
   users:
     new:
       title: "Sign Up"
-      form:
-        name: "Name"
-        email: "Email"
-        password: "Password"
-        password_confirmation: "Password confirmation"
-        btn_submit: "Create my account"
+      btn_submit: "Create my account"
+
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password confirmation"
 
     show:
       not_found_user: "User not found!"
 
+    index:
+      title: "All users"
+
     create:
       signup_success: "Welcome to the Sample App!"
+
+    update:
+      profile_updated_success: "Profile updated success"
+      profile_updated_failed: "Profile updated fails"
+
+    edit:
+      title: "Edit user"
+      edit_profile: "Update your profile"
+      btn_submit: "Save changes"
+      change: "Change"
+
+    user:
+      delete: "Delete"
+      confirm: "Are you sure?"
+
+    destroy:
+      success: "Delete user success"
+      failed: "Delete user failed"
+
+    login_request: "Please log in first"
 
   shared:
     error_form: "The form contains"

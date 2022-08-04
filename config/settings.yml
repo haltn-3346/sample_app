@@ -24,3 +24,7 @@ user:
   password_max: 20
   email_pattern: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   gavatar_size: 80
+  gravatar_for_user_size: 50
+
+true: "1"
+false: "0"
