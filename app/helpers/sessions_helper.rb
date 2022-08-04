@@ -1,4 +1,5 @@
 module SessionsHelper
+  include Pagy::Frontend
   def log_in user
     session[:user_id] = user.id
   end

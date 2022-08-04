@@ -21,6 +21,7 @@ en:
       welcome: "Welcome to the Sample App"
       test1: "This is the home page for the"
       test2: "sample application."
+      micropost_feed: "Micropost Feed"
 
     contact:
       contact: "Contact"
@@ -63,6 +64,7 @@ en:
 
     show:
       not_found_user: "User not found!"
+      microposts: "Microposts"
 
     index:
       title: "All users"
@@ -91,10 +93,6 @@ en:
 
     login_request: "Please log in first"
 
-  shared:
-    error_form: "The form contains"
-    error: "error"
-
   sessions:
     new:
       title: "Log in"
@@ -110,6 +108,18 @@ en:
     create:
       invalid: "Invalid email/password combination"
       act_warning: "Account not activated. Check your email for the activation link."
+
+  shared:
+    error_messages:
+      intro: "The form contains"
+      error: "error"
+    micropost_form:
+      new_micropost: "Compose new micropost..."
+      post: "Post"
+      image_oversize: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "micropost"
 
   account_activations:
     edit:
@@ -154,3 +164,22 @@ en:
       cant_be: "can't be empty"
       reset_success: "Password has been reset"
       reset_fail: "Some thing went wrong, try again"
+
+  microposts:
+    microposts:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
+    create:
+      not_log_in: "logged_in_user"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      delete_fails: "Microposts cannot be deleted"
+    find_micropost:
+      find_micropost_fail: "Cannot find micropost"
+
+    micropost_invalid: "Micropost invalid"
+    image_valid: "must be a valid image format"
+    image_size: "should be less than 5MB"
+    save_success: "Micropost created!"
