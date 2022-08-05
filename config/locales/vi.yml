@@ -105,6 +105,7 @@ vi:
         password: "Mật khẩu"
         btn_submit: "Đăng nhập"
         rememberme: "Ghi nhớ đăng nhập"
+        forgot_password: "Quên mật khẩu?"
 
     create:
       invalid: "Sai email hoặc mật khẩu"
@@ -119,6 +120,7 @@ vi:
 
   mailers:
     account_activation_sub: "Kích hoạt tài khoản"
+    password_reset: "Password reset"
 
   user_mailer:
     account_activation:
@@ -126,3 +128,31 @@ vi:
       wellcome: "Chào mừng đến với Sample App! nhấn vào link dưới để kích hoạt tài khoản nhé!"
       hi: "Xin chào"
       sample_app: "Sample App"
+
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      reset_click: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      exp_hours: "Liên kết này sẽ hết hạn sau hai giờ."
+      ignore: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+
+  password_resets:
+    not_found: "Tài khoản không được tìm thấy"
+    expired: "Đặt lại mật khẩu đã hết hạn."
+    new:
+      title: "Quên mật khẩu"
+      btn_submit: "Gửi link"
+
+    edit:
+      title: "Đặt lại mật khẩu"
+      btn_submit: "Cập nhật mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+
+    create:
+      email_sent: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      send_failed: "Địa chỉ email không tìm thấy, vui lòng kiểm tra email đã nhập và thử lại"
+
+    update:
+      cant_be: "không thể để trống"
+      reset_success: "Mật khẩu đã được đặt lại"
+      reset_fail: "Đã xảy ra sự cố, hãy thử lại"
