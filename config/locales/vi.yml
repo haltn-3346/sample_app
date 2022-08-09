@@ -21,6 +21,7 @@ vi:
       welcome: "Chào mừng đến với Sample App"
       test1: "Đây là trang chủ của"
       test2: "Ứng dụng mẫu."
+      micropost_feed: "Micropost Feed"
 
     contact:
       contact: "Liên hệ"
@@ -63,6 +64,7 @@ vi:
 
     show:
       not_found_user: "Không tìm thấy người dùng!"
+      microposts: "Số bài viết"
 
     index:
       title: "Tất cả người dùng"
@@ -91,10 +93,6 @@ vi:
 
     login_request: "Vui lòng đăng nhập trước"
 
-  shared:
-    error_form: "Form chứa"
-    error: "lỗi"
-
   sessions:
     new:
       title: "Đăng nhập"
@@ -110,6 +108,18 @@ vi:
     create:
       invalid: "Sai email hoặc mật khẩu"
       act_warning: "Tài khoản chưa kích hoạt. Vui lòng Kiểm tra email của bạn để biết liên kết kích hoạt"
+
+  shared:
+    error_messages:
+      intro: "Biểu mẫu có"
+      error: "lỗi"
+    micropost_form:
+      new_micropost: "Hãy viết bài đăng mới..."
+      post: "Đăng"
+      image_oversize: "Kích cỡ tối đa của ảnh là 5MB, hãy chọn ảnh nhỏ hơn."
+    user_info:
+      view_my_profile: "Xem bài đăng của tôi"
+      micropost: "bài đăng"
 
   account_activations:
     edit:
@@ -145,8 +155,6 @@ vi:
     edit:
       title: "Đặt lại mật khẩu"
       btn_submit: "Cập nhật mật khẩu"
-      password: "Mật khẩu"
-      password_confirmation: "Nhập lại mật khẩu"
 
     create:
       email_sent: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
@@ -156,3 +164,22 @@ vi:
       cant_be: "không thể để trống"
       reset_success: "Mật khẩu đã được đặt lại"
       reset_fail: "Đã xảy ra sự cố, hãy thử lại"
+
+  microposts:
+    create:
+      not_log_in: "Hãy đăng nhập"
+    destroy:
+      micropost_deleted: "Bài viết đã bị xóa"
+      delete_fails: "Không thể xóa bài viết"
+    micropost:
+      posted: "Bài viết được đăng"
+      ago: "trước."
+      delete: "Xóa"
+      you_sure: "Bạn chắc chứ?"
+    find_micropost:
+      find_micropost_fail: "Không thể tìm thấy micropost"
+
+    micropost_invalid: "Micropost không hợp lệ"
+    image_valid: "phải là một định dạng hình ảnh hợp lệ"
+    image_size: "phải nhỏ hơn 5MB"
+    save_succes: "Bài viết đã được tạo"
