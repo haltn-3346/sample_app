@@ -91,7 +91,16 @@ vi:
       success: "Xóa người dùng thành công"
       failed: "Xóa người dùng thất bại"
 
+    following_title: "Đang theo dõi"
+    followers_title: "Người theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Hủy theo dõi"
     login_request: "Vui lòng đăng nhập trước"
+
+    show_follow:
+      title: "Người theo dõi"
+      microposts: "Số bài viết:"
+      view_my_profile: "xem hồ sơ của tôi"
 
   sessions:
     new:
@@ -120,6 +129,10 @@ vi:
     user_info:
       view_my_profile: "Xem bài đăng của tôi"
       micropost: "bài đăng"
+
+    stats:
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
 
   account_activations:
     edit:
@@ -183,3 +196,7 @@ vi:
     image_valid: "phải là một định dạng hình ảnh hợp lệ"
     image_size: "phải nhỏ hơn 5MB"
     save_succes: "Bài viết đã được tạo"
+
+  relationships:
+    follow_fail: "Không thể theo dõi. Vui lòng thử lại lần nữa"
+    unfollow_fail: "Không thể hủy theo dõi. Vui lòng thử lại lần nữa"

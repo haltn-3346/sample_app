@@ -91,7 +91,16 @@ en:
       success: "Delete user success"
       failed: "Delete user failed"
 
+    following_title: "Following"
+    followers_title: "Followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
     login_request: "Please log in first"
+
+    show_follow:
+      title: "Followers"
+      microposts: "Microposts:"
+      view_my_profile: "view my profile"
 
   sessions:
     new:
@@ -120,6 +129,10 @@ en:
     user_info:
       view_my_profile: "View my profile"
       micropost: "micropost"
+
+    stats:
+      following: "Following"
+      followers: "Followers"
 
   account_activations:
     edit:
@@ -183,3 +196,7 @@ en:
     image_valid: "must be a valid image format"
     image_size: "should be less than 5MB"
     save_success: "Micropost created!"
+
+  relationships:
+    follow_fail: "Can't follow. Please try it again"
+    unfollow_fail: "Can't unfollow. Please try it again"
